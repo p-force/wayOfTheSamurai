@@ -7,4 +7,4 @@ What I used in this project:
 - Sequelize
 - Express
 - Morgan
-- React, React-dom, React-router-dom
+- React
