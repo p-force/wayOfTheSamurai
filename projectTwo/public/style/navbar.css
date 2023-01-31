@@ -1,0 +1,17 @@
+.navbar {
+  background-color: black;
+  /* text-emphasis-color: yellow; */
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-brand:visited,
+.nav-link:visited {
+  color: #FA9427;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: rgb(255, 200, 3);
+  text-decoration:overline; /* Добавляем подчеркивание */
+}

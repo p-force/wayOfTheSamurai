@@ -1,0 +1,221 @@
+/* for all styles */
+
+
+#root {
+  background-color: #FA9427;
+}
+
+.navbar {
+  background-color: black;
+  /* text-emphasis-color: yellow; */
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-brand:visited,
+.nav-link:visited {
+  color: #FA9427;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: rgb(255, 200, 3);
+  text-decoration: overline;
+  /* Добавляем подчеркивание */
+}
+
+
+.l1,
+.l2,
+.l3,
+.l4,
+.l5,
+.l6,
+.l7,
+.l8,
+.l9,
+.l10,
+.l11,
+.l12,
+.l13 {
+  /* border: 2px solid white; */
+  padding: 0;
+  margin: 0;
+  /* background-color: aliceblue; */
+}
+
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.imgnaruto1 {
+  position: absolute;
+  top: -43px;
+  right: 15px;
+  height: 600px;
+  pointer-events: none;
+  transform: rotate(2deg);
+  /* webkit-transform: rotate(2deg); */
+  /* font-size: 14px; */
+  /* url('/projectTwo/public/img/char_naruto.webp'); */
+  /* border: 20px solid black;
+  border-image-source: image('/projectTwo/public/img/char_naruto'); */
+}
+
+.imgmanga1 {
+  position: absolute;
+  top: 72px;
+  left: 30px;
+  height: 350px;
+  pointer-events: none;
+  opacity: 0.6;
+  /* transform: rotate(2deg); */
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+  text-decoration: none;
+  /* font-weight: bold; */
+  font-size: 16.5px;
+}
+
+.hover-underline-animation:hover {
+  color: rgb(255, 200, 3);
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  color: rgb(255, 200, 3);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: rgb(255, 200, 3);
+}
+
+
+.movies {
+  background-color: black;
+  color: rgb(255, 200, 3);
+
+}
+
+
+
+
+
+
+
+
+
+/* #mov1,
+#mov5,
+#mov9,
+#mov13 { */
+/* border-image: 5px solid white; */
+/* background-image: url("img/blackSquare.png"); */
+/* background-image: url("img/whiteRama.png"); */
+/* border-image-outset: 2px auto white; */
+/* background-size: 440px;
+  background-repeat: no-repeat;
+  color: rgb(255, 200, 3);
+  padding: 5px 0 1px 15px;
+  font-size: small; */
+/* border-image: url('img/whiteRama.png') 40px auto auto; */
+/* } */
+
+/* #mov2,
+#mov4,
+#mov6,
+#mov8,
+#mov10,
+#mov12 {
+  /* background-position: center; */
+/* background-position: 400px;
+  background-image: url("img/blackSquare.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  color: rgb(255, 200, 3);
+  padding: 5px 0 1px 0px;
+  font-size: small; */
+/* } */
+
+
+/* #mov3,
+#mov7,
+#mov11 {
+  background-position: 860px;
+  background-image: url("img/blackSquare.png");
+  background-size: 550px;
+  background-repeat: no-repeat;
+  color: rgb(255, 200, 3);
+  padding: 5px 0 1px 0px;
+  font-size: small;
+} */
+
+/* #imgNumber1,
+#imgNumber2,
+#imgNumber3,
+#imgNumber4,
+#imgNumber5,
+#imgNumber6,
+#imgNumber7,
+#imgNumber8,
+#imgNumber9,
+#imgNumber10,
+#imgNumber11,
+#imgNumber12,
+#imgNumber13 {
+  position: relative;
+  height: 50px;
+  width: 30px;
+}
+
+#imgNumber1 {
+  top: 594px;
+  left: 455px;
+}
+
+
+
+#imgRama1,
+#imgRama2,
+#imgRama3,
+#imgRama4,
+#imgRama5,
+#imgRama6,
+#imgRama7,
+#imgRama8,
+#imgRama9,
+#imgRama10,
+#imgRama11,
+#imgRama12,
+#imgRama13 {
+  position: absolute;}
+
+  #imgRama1 {
+    top: 607px;
+    left: -58px;
+    height: 88px;
+    width: 605px;
+  }
+
+  #imgRama2 {
+    top: 650px;
+    left: 340px;
+    height: 88px;
+    width: 605px;
+  } */
